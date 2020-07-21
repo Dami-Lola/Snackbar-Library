@@ -1,9 +1,7 @@
 package com.damio.snackbarlibrary;
 
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.view.View;
-
 import com.google.android.material.snackbar.Snackbar;
 
 public class SnackbarMessage {
@@ -15,6 +13,5 @@ public class SnackbarMessage {
                 .setBackgroundTint(R.drawable.snackshape)
                 .setActionTextColor(Color.WHITE)
                 .show();
-
     }
 }
